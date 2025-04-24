@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "modelo": "P370",
+        "km": "65000",
+        "marca": "Scania",
+        "ano": 2023,
+        "preco": 750000,
+        "imagem": "veiculos/680a9c6b2406b.jpg",
+        "cor": "Azul",
+        "portas": "2",
+        "combustivel": "Diesel",
+        "cambio": "Automática",
+        "imagens": [
+            "veiculos/680a9c6b2438e.jpg"
+        ],
+        "info": [
+            ""
+        ]
+    },
+    {
+        "id": 2,
+        "modelo": "FH460",
+        "km": "500000",
+        "marca": "Volvo",
+        "ano": 2022,
+        "preco": 799000,
+        "imagem": "veiculos/680a9de361b6a.jpg",
+        "cor": "Branca",
+        "portas": "2",
+        "combustivel": "Diesel",
+        "cambio": "Automática",
+        "imagens": [
+            "veiculos/680a9de361fa8.jpg"
+        ],
+        "info": [
+            ""
+        ]
+    }
+]

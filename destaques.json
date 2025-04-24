@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "modelo": "Toyota Hilux SRV",
+    "km": "2000",
+    "marca": "Toyota",
+    "ano": 2021,
+    "preco": 219900,
+    "imagem": "carros/s10/1.webp",
+
+    "cor": "Branca",
+    "portas": "4 PORTAS",
+    "combustivel": "DIESEL",
+    "cambio": "AUTOMÁTICO",
+    "imagens": [
+      "carros/s10/1.webp",
+      "carros/s10/2.webp",
+      "carros/s10/3.webp"
+    ],
+    "info": [
+      "Airbag",
+      "Ar-condicionado",
+      "Direção hidráulica",
+      "Vidros elétricos",
+      "Central multimídia",
+      "Sensor de estacionamento"
+    ]
+  }
+]

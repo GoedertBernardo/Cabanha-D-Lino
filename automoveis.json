@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "modelo": "RAM 1500",
+        "km": "20000",
+        "marca": "RAM",
+        "ano": 2025,
+        "preco": 299000,
+        "imagem": "veiculos/680a96d9c7b8f.webp",
+        "cor": "Preto",
+        "portas": "4",
+        "combustivel": "Diesel",
+        "cambio": "Automático",
+        "imagens": [
+            "veiculos/680a96d9c7e9f.webp",
+            "veiculos/680a96d9c81e5.webp",
+            "veiculos/680a96d9c8713.webp",
+            "veiculos/680a96d9c89f4.webp"
+        ],
+        "info": [
+            "Airbag",
+            "Multímidia",
+            "Som",
+            "Teto Solar"
+        ]
+    },
+    {
+        "id": 2,
+        "modelo": "711",
+        "km": "50000",
+        "marca": "Porsche",
+        "ano": 2020,
+        "preco": 450000,
+        "imagem": "veiculos/680a9cd118c71.jpg",
+        "cor": "Amarelo",
+        "portas": "2",
+        "combustivel": "Gasolina",
+        "cambio": "Automática",
+        "imagens": [
+            "veiculos/680a9cd118e2f.jpg",
+            "veiculos/680a9cd118f2d.jpg",
+            "veiculos/680a9cd1190a7.jpg",
+            "veiculos/680a9cd1192ee.jpg",
+            "veiculos/680a9cd119841.jpg"
+        ],
+        "info": [
+            ""
+        ]
+    },
+    {
+        "id": 3,
+        "modelo": "Cooper",
+        "km": "20000",
+        "marca": "Mini",
+        "ano": 2024,
+        "preco": 299000,
+        "imagem": "veiculos/680a9d3dd4e81.jpg",
+        "cor": "Azul",
+        "portas": "4",
+        "combustivel": "Gasolina",
+        "cambio": "Automática",
+        "imagens": [
+            "veiculos/680a9d3dd55e2.jpg",
+            "veiculos/680a9d3dd5d5c.jpg",
+            "veiculos/680a9d3dd6337.jpg",
+            "veiculos/680a9d3dd6944.jpg",
+            "veiculos/680a9d3dd6e28.jpg"
+        ],
+        "info": [
+            ""
+        ]
+    }
+]

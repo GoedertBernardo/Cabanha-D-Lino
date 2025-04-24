@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+.interface {
+  max-width: 1280px;
+  margin: 0 auto;
+
+}
+
+header {
+  width: 100%;
+  background-color: rgb(24, 99, 158);
+}
+
+.top-header>.interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-header {
+  background-color: #fff;
+  padding: 20px 4%;
+}
+
+.top-header .logotipo img {
+  max-width: 240px;
+}
+
+.top-header .btn-social button {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid rgb(24, 99, 158);
+  cursor: pointer;
+}
+
+.bi-instagram {
+  color: rgb(24, 99, 158);
+}
+
+.bi-whatsapp {
+  color: rgb(24, 99, 158);
+}
+
+.bi-facebook {
+  color: rgb(24, 99, 158);
+}
+
+.botton-header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+
+}
+
+.botton-header nav ul li a {
+  color: #fff;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-weight: 100;
+  display: block;
+  transition: .2s;
+  font-family: "Squada One", sans-serif;
+
+
+}
+
+.botton-header nav ul li a:hover {
+  background-color: lch(81.93% 21.37 247.12);
+  color: rgb(24, 99, 158);
+  box-shadow: inset 0 0 8px #000000a8;
+}
+
+.drop-hover {
+  position: relative;
+}
+
+.drop-hover .drop {
+  position: absolute;
+  background-color: rgb(24, 99, 158);
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  transition: .5s;
+  z-index: 999;
+}
+
+.drop-hover .drop a {
+  padding: 20px;
+}
+
+.drop-hover:hover .drop {
+  height: 170px;
+
+}
+
+.carros {
+  padding: 40px 4%;
+  background-color: #f9f9f9;
+}
+
+.card-carro {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  position: relative;
+}
+
+.card-carro:hover {
+  transform: translateY(-5px);
+}
+
+.card-carro img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.card-carro h3 {
+  font-size: 1.2rem;
+  color: rgb(24, 99, 158);
+  margin-bottom: 10px;
+  font-family: "Squada One", sans-serif;
+}
+
+.card-carro p {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 5px 0;
+  color: #444;
+  font-size: 0.95rem;
+  font-family: "Squada One", sans-serif;
+}
+
+.card-carro p i {
+  font-size: 1rem;
+  color: rgb(24, 99, 158);
+  line-height: 1;
+}
+
+
+.card-carro .preco {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #000;
+  display: block;
+  margin-bottom: 15px;
+  font-family: "Squada One", sans-serif;
+}
+
+.btn-comprar {
+  background-color: rgb(24, 99, 158);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 100;
+  transition: background-color 0.3s ease;
+  font-family: "Squada One", sans-serif;
+}
+
+.btn-comprar:hover {
+  background-color: #1a4f80;
+}
+
+.grid-carros {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.etiqueta {
+  position: absolute;
+  background-color: rgb(24, 99, 158);
+  color: white;
+  padding: 5px 12px;
+  font-size: 0.75rem;
+  font-weight: 100;
+  border-radius: 0 8px 8px 0;
+  top: 15px;
+  left: 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  font-family: "Squada One", sans-serif;
+}
+
+.btn-vertodos {
+  background-color: rgb(24, 99, 158);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 100;
+  transition: background-color 0.3s ease;
+  font-family: "Squada One", sans-serif;
+
+}
+
+.btn-vertodos:hover {
+  background-color: #1a4f80;
+}
+
+.rodape {
+  background-color: rgb(24, 99, 158);
+  color: #fff;
+  padding: 40px 4% 20px;
+}
+
+.rodape .interface {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.rodape-conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.coluna {
+  flex: 1;
+  min-width: 220px;
+}
+
+.logo-bg {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.logo-rodape {
+  width: 160px;
+  display: block;
+}
+
+.coluna h4 {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  font-family: "Squada One", sans-serif;
+  font-weight: 100;
+}
+
+.coluna ul {
+  list-style: none;
+  padding: 0;
+}
+
+.coluna ul li {
+  margin-bottom: 6px;
+}
+
+.coluna ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.3s;
+  font-family: "Squada One", sans-serif;
+}
+
+.coluna ul li a:hover {
+  color: #ddd;
+}
+
+.coluna p {
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: "Squada One", sans-serif;
+}
+
+.rodape-copy {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* === PÁGINA SOBRE === */
+.sobre-page {
+  padding: 60px 4%;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.sobre-page h1 {
+  font-family: 'Squada One', sans-serif;
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: rgb(24, 99, 158);
+}
+
+.sobre-page h2 {
+  font-family: 'Squada One', sans-serif;
+  font-size: 1.8rem;
+  margin-top: 40px;
+  color: rgb(24, 99, 158);
+}
+
+.sobre-page p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.sobre-page ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.sobre-page ul li {
+  margin-bottom: 6px;
+  list-style: disc;
+}
+
+.container-slider {
+  display: flex;
+  width: 100%;
+  min-height: 55vh;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-left: 10px;
+}
+
+.container-image {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+}
+
+.slider {
+  opacity: 0;
+  transition: opacity .2s;
+  position: absolute;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.on {
+  opacity: 1;
+}
+
+#prev-button,
+#next-button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  font-size: 40px;
+  color: rgb(24, 99, 158);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#prev-button :hover,
+#next-button :hover {
+  color: #1a4f80;
+}
+
+#prev-button img,
+#next-button img {
+  width: 200px;
+  height: 200px;
+}
+
+.titulo-slider {
+  text-align: center;
+  font-size: 2.9rem;
+  color: rgb(24, 99, 158);
+  font-family: "Squada One", sans-serif;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.info-slider {
+  text-align: center;
+  max-width: 800px;
+  margin: 40px auto;
+  font-family: "Squada One", sans-serif;
+}
+
+.info-slider h2 {
+  font-size: 2rem;
+  color: rgb(24, 99, 158);
+  margin-bottom: 10px;
+}
+
+.info-slider p {
+  font-size: 1.2rem;
+  color: #444;
+  line-height: 1.6;
+}
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.imagem-veiculo img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.detalhes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.preco-detalhes {
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(24, 99, 158);
+  font-family: "Squada One", sans-serif;
+  position: absolute;
+  right: 589px;
+  top: 420px;
+}
+
+.caracteristicas {
+  display: grid;
+  grid-template-columns: repeat(4, 120px);
+  grid-template-rows: repeat(2, auto);
+  gap: 60px;
+  max-width: 1000px;
+  max-height: 500px;
+  position: absolute;
+  right: 300px;
+  top: 490px;
+  border: 2px solid rgb(24, 99, 158);
+  border-radius: 8px;
+  padding: 35px;
+}
+
+.item {
+  text-align: center;
+  color: rgb(24, 99, 158);
+  font-family: "Squada One", sans-serif;;
+}
+
+.item i {
+  font-size: 24px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.item span {
+  display: block;
+  font-size: 20px;
+  color: #000;
+}
+.button-whatsapp{
+  color: white;
+  background-color: #25d366;
+  font-size: 32px;
+  height: 80px;
+  width: 350px;
+  right: 485px;
+  top: 785px;
+  position: absolute;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button-whatsapp:hover{
+  transform: scale(1.1);
+  background-color: #128c7e;
+}
+.button-whatsapp .bi-whatsapp{
+  color: #ffffff;
+}
+.brand-info{
+  border: none;
+  background-color: transparent;
+  --main-primary-color: rgb(24, 99, 158);
+}

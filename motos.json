@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "modelo": "XJ6",
+        "km": "50000",
+        "marca": "Yamaha",
+        "ano": 2012,
+        "preco": 24999,
+        "imagem": "veiculos/680a98bce6f61.webp",
+        "cor": "Preto",
+        "portas": "0",
+        "combustivel": "Gasolina",
+        "cambio": "Manual",
+        "imagens": [
+            "veiculos/680a98bce705e.webp",
+            "veiculos/680a98bce7110.webp",
+            "veiculos/680a98bce71c0.webp",
+            "veiculos/680a98bce725d.webp",
+            "veiculos/680a98bce7300.webp"
+        ],
+        "info": [
+            "Moto em excelente estado",
+            "bonita",
+            "preta",
+            "nova"
+        ]
+    },
+    {
+        "id": 2,
+        "modelo": "Ninja",
+        "km": "0",
+        "marca": "Kawasaki",
+        "ano": 2025,
+        "preco": 119000,
+        "imagem": "veiculos/680a9b076a0e2.webp",
+        "cor": "Verde",
+        "portas": "0",
+        "combustivel": "Gasolina",
+        "cambio": "Automática",
+        "imagens": [
+            "veiculos/680a9b076a1c8.webp",
+            "veiculos/680a9b076a396.webp",
+            "veiculos/680a9b076a47b.webp",
+            "veiculos/680a9b076a530.webp",
+            "veiculos/680a9b076a686.webp"
+        ],
+        "info": [
+            "nova",
+            "zero km",
+            "importada"
+        ]
+    },
+    {
+        "id": 3,
+        "modelo": "Hornet",
+        "km": "85000",
+        "marca": "Honda",
+        "ano": 2012,
+        "preco": 23000,
+        "imagem": "veiculos/680a9b8eb7cbf.webp",
+        "cor": "Amarelo",
+        "portas": "0",
+        "combustivel": "Gasolina",
+        "cambio": "Manual",
+        "imagens": [
+            "veiculos/680a9b8eb80fa.webp",
+            "veiculos/680a9b8eb85d8.webp",
+            "veiculos/680a9b8eb8ac1.webp",
+            "veiculos/680a9b8eb8fe7.webp",
+            "veiculos/680a9b8eb953e.webp"
+        ],
+        "info": [
+            "unico dono"
+        ]
+    },
+    {
+        "id": 4,
+        "modelo": "S1000RR",
+        "km": "0",
+        "marca": "BMW",
+        "ano": 2025,
+        "preco": 120000,
+        "imagem": "veiculos/680a9bf801396.jpg",
+        "cor": "Branca",
+        "portas": "0",
+        "combustivel": "Gasolina",
+        "cambio": "Automática",
+        "imagens": [
+            "veiculos/680a9bf8014c1.jpg",
+            "veiculos/680a9bf801681.jpg",
+            "veiculos/680a9bf8017bc.jpg",
+            "veiculos/680a9bf8018a4.jpg",
+            "veiculos/680a9bf801a05.jpg"
+        ],
+        "info": [
+            "zero",
+            "sem modificações"
+        ]
+    }
+]
